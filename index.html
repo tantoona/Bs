@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Amazon</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/White-Amazon-Logo-PNG-HD-Quality.png" alt="Amazon" width="100">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between align-items-center">
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column"> <small>Deliver to</small>
+                                <strong><i class="bi bi-geo-alt me-1" style="color: white;"></i>Egypt</strong>
+                            </div>
+                        </a>
+                    </li>
+    
+                    <li class="nav-item flex-grow-1 mx-3 d-flex align-items-center">
+                        <form class="d-flex w-100" role="search">
+                            <div class="input-group">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    All
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">All</a></li>
+                                    <li><a class="dropdown-item" href="#">Electronics</a></li>
+                                    <li><a class="dropdown-item" href="#">Fashion</a></li>
+                                    <li><a class="dropdown-item" href="#">Home</a></li>
+                                </ul>
+                                <input class="form-control" type="search" placeholder="amazon egypt" aria-label="Search">
+                                <button class="btn btn-warning" type="submit"><i class="bi bi-search"
+                                        style="color: white;"></i></button>
+                            </div>
+                        </form>
+                    </li>
+    
+                    <li class="nav-item d-flex align-items-center">
+                        <div class="dropdown px-2">
+                            <a class="dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                EN
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link" href="#">
+                            <div class="d-flex flex-column">
+                                <small>Hello, sign in</small>
+                                <strong>Account & Lists</strong>
+                            </div>
+                        </a>
+                    </li>
+    
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link" href="#">
+                            <strong>Orders</strong>
+                        </a>
+                    </li>
+    
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-cart me-1" style="color: white;"></i>
+                            <sub>Cart</sub>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-2 pb-2" style="background-color: rgb(29, 29, 31);" id="Top">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav justify-content-start overflow-x-auto small" style="font-size: small;">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Today's Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Prime
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Prime Video</a></li>
+                                    <li><a class="dropdown-item" href="#">Prime Music</a></li>
+                                    <li><a class="dropdown-item" href="#">Prime Delivery</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Mobile Phones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Electronics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Appliances</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Fashion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Video Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Grocery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Toys & Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Perfumes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Sell</a>
+                        </li>
+                    </ul>
+    
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">
+                                <i class="bi bi-rocket-fill"></i> <b>Starting selling on Amazon today</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid mb-3 "
+        style="border: 1px solid #dee2e6; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);">
+        <div class="row align-items-center">
+            <div class="col-auto">
+                <span class="fs-6">27 results for "<span class="text-danger">amazon egypt</span>"</span>
+            </div>
+            <div class="col text-end">
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="border-radius: 1rem;">
+                        Sort by Featured
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Featured</a></li>
+                        <li><a class="dropdown-item" href="#">Price: Low to High</a></li>
+                        <li><a class="dropdown-item" href="#">Price: High to Low</a></li>
+                        <li><a class="dropdown-item" href="#">Customer Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <h6><b>Fulfilled by Amazon</b></h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Fulfilled by Amazon </label>
+                </div>
+
+                <h6><b>Eligible for Free Shipping</b></h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Free Shipping </label>
+                    <p>All customers get FREE Shipping on orders Shipped by Amazon</p>
+                </div>
+
+                <h6><b>Delivery Day</b></h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Get It Today </label>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Get It by Tomorrow </label>
+                </div>
+
+                <h6><b>Category</b></h6>
+                <div>
+                    <a class="nav-link active" aria-current="page" href="#">Home & Kitchen</a>
+                    <a class="nav-link active" aria-current="page" href="#">Furniture</a>
+                    <a class="nav-link active" aria-current="page" href="#">Electronics</a>
+                </div>
+
+                <h6><b>Customer Reviews</b></h6>
+                <div class="form-check" style="color: rgb(238, 127, 48);">
+                    <span>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <a class="nav-link active d-inline" aria-current="page" href="#"><i
+                                class="bi bi-star"></i>&Up</a>
+                    </span>
+                </div>
+
+                <h6><b>Brands</b></h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Ariika </label>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> HT Medical </label>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Tip Of The Day </label>
+                </div>
+
+                <h6><b>Price</b></h6>
+                <div class="range-container d-block align-items-center">
+                    <label for="priceRange" class="form-label">145 EGP - 2,500 EGP & above</label>
+                    <div class="d-flex align-items-center">
+                        <input type="range" class="form-range me-2" min="0" max="5" step="0.5" id="priceRange">
+                        <button type="submit" class="btn btn-light go-button" style="border-radius: 20px;">Go</button>
+                    </div>
+                </div>
+
+                <h6><b>Deals & Discounts</b></h6>
+                <div>
+                    <a class="nav-link active" aria-current="page" href="#">All Discounts</a>
+                    <a class="nav-link active" aria-current="page" href="#">Today's Deals</a>
+                </div>
+
+                <h6><b>Condition</b></h6>
+                <div>
+                    <a class="nav-link active" aria-current="page" href="#">New</a>
+                </div>
+
+                <h6><b>Furniture Material</b></h6>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Plastic </label>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Stone </label>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"> Wood </label>
+                </div>
+
+                <h6><b>Color</b></h6>
+                <div class="d-flex">
+                    <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                    <label class="btn btn-light p-2" style="background-color: rgba(255, 255, 255, 0.912);"
+                        for="option1"></label>
+
+                    <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                    <label class="btn btn-light p-2" style="background-color: brown;" for="option2"></label>
+
+                    <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                    <label class="btn btn-light p-2" style="background-color: black;" for="option3"></label>
+
+                    <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                    <label class="btn btn-light p-2" style="background-color: red;" for="option4"></label>
+
+                    <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off">
+                    <label class="btn btn-light p-2" style="background-color: rgba(255, 168, 6, 0.792);"
+                        for="option5"></label>
+
+                    <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
+                    <label class="btn btn-light p-2" style="background-color: rgba(27, 161, 27, 0.856);"
+                        for="option6"></label>
+
+                    <input type="radio" class="btn-check" name="options" id="option7" autocomplete="off">
+                    <label class="btn btn-light p-2" style="background-color: teal;" for="option7"></label>
+
+                    <input type="radio" class="btn-check" name="options" id="option8" autocomplete="off">
+                    <label class="btn btn-light p-2" style="background-color: navy;" for="option8"></label>
+                </div>
+
+
+                <div>
+                    <h6><b>Furniture Material</b></h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault"> Include Out of Stock </label>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-10 right-side">
+                <p class="fs-3"><b>Results</b></p>
+                <p>Check each product page for other buying options. Price and other details may vary based on product size and colour.</p>
+                <div class="container my-4">
+                    <div class="row" id="product-container">
+                        <!-- Products -->
+                    </div>
+                    <div id="loading" class="text-center my-4" style="display: none;">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center my-4">
+                        <button id="loadMoreBtn" class="btn btn-danger" onclick="loadMoreProducts()">Load More
+                            Products</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-top text-white bg-dark">
+        <div style="background-color: #36454F; padding: 10px; text-align: center;">
+            <a href="#Top" style="color: white; text-decoration: none;">Back to top</a>
+        </div>
+        <div class="container justify-content-around footer-section py-3">
+            <div class="row ">
+                <div class="col-md-3">
+                    <h5 style="font-size: 1rem; font-weight: bold; margin-bottom: 1rem;">Get to Know Us</h5>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">About Amazon</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Careers</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Amazon Science</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 style="font-size: 1rem; font-weight: bold; margin-bottom: 1rem;">Shop with Us</h5>
+                    <ul>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Your Account</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Your Orders</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Your Addresses</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Your Lists</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 style="font-size: 1rem; font-weight: bold; margin-bottom: 1rem;">Make Money with Us</h5>
+                    <ul>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Protect and build your
+                                brand</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Advertise Your
+                                Products</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Sell on Amazon</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Fulfillment by Amazon</a>
+                        </li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Supply to Amazon</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 style="font-size: 1rem; font-weight: bold; margin-bottom: 1rem;">Let Us Help You</h5>
+                    <ul>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Help</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Shipping & Delivery</a>
+                        </li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Returns &
+                                Replacements</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Recalls and Product
+                                Safety Alerts</a></li>
+                        <li style="list-style: none;"><a href="#"
+                                style="text-decoration: none; color: #ddd; font-size: 0.8rem;">Amazon App Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr style="color: white;">
+        <div class="d-flex flex-column align-items-center py-3">
+            <img src="./images/White-Amazon-Logo-PNG-HD-Quality.png" alt="Amazon Logo" width="100" class="mb-2">
+            <div class="d-flex align-items-center mb-2">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        English
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Arabic</a></li>
+                    </ul>
+                </div>
+                <span class="mx-2"></span>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Egypt
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Egypt</a></li>
+                        <li><a class="dropdown-item" href="#">Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom text-white text-center py-3 " style="background-color: rgb(29, 29, 31);">
+
+
+        <div class="container">
+
+
+            <div class="footer-links row row-cols-md-4 row-cols-sm-2 justify-content-center small">
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>Amazon Advertising</strong><br>
+                            <small>Find, attract, and<br>engage customers</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>Sell on Amazon</strong><br>
+                            <small>Start Selling Online Today!</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>Amazon Web Services</strong><br>
+                            <small>Scalable Cloud<br>Computing Services</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>Goodreads</strong><br>
+                            <small>Book reviews<br>& recommendations</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>Audible</strong><br>
+                            <small>Download<br>Audio Books</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>IMDb</strong><br>
+                            <small>Movies, TV<br>& Celebrities</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>Alexa</strong><br>
+                            <small>Actionable Analytics<br>for the Web</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="text-decoration-none text-white">
+                        <div>
+                            <strong>Shopbop</strong><br>
+                            <small>Designer<br>Fashion Brands</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p class="mt-3 small text-center" style="font-size: 0.7rem; color: #999;">&copy;1996-2024,
+                Amazon.com, Inc. or its affiliates</p>
+            <div class="d-flex justify-content-center flex-wrap">
+                <a href="#" class="mx-2 small text-decoration-none text-white" style="font-size: 0.7rem;">Conditions of
+                    Use & Sale</a>
+                <a href="#" class="mx-2 small text-decoration-none text-white" style="font-size: 0.7rem;">Privacy
+                    Notice</a>
+                <a href="#" class="mx-2 small text-decoration-none text-white" style="font-size: 0.7rem;">Interest-Based
+                    Ads</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/Home.js"></script>
+</body>
+
+</html>

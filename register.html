@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>User Form</title>
+</head>
+
+<body>
+   
+    <div class="container mt-3">
+        <img src="./images/Amazon_logo.svg.webp" alt="amazon logo" style="width: 120px; display: block; margin: 20px auto;">
+        
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class="card p-4 shadow-sm">
+                    <h3 class="fw-bold text-center">Create Account</h3>
+                    <form id="registrationForm" class="needs-validation" novalidate>
+                       
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Your name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="First and last name" required>
+                            <div id="fullNameInvalid" class="invalid-feedback"></div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="mobile" class="form-label">Mobile number</label>
+                            <div class="input-group">
+                                <select class="form-select" aria-label="Mobile number select" id="countryCodeSelect">
+                                    <option selected>Select country code</option>
+                                    <option value="Egypt +20">EG +20</option>
+                                    <option value="Fiji +679">Fiji +679</option>
+                                    <option value="Australia +61">AU +61</option>
+                                    <option value="United states +1">US +1</option>
+                                </select>
+                                <input type="text" class="form-control" id="mobileNumber" placeholder="Mobile number" required>
+                            </div>
+                            <div id="mobileNumberInvalid" class="invalid-feedback"></div>
+                        </div>
+    
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="At least 6 characters" required>
+                            <div class="form-text"><i class="bi bi-info-circle-fill" style="color: rgb(15, 164, 155);"></i> Passwords must be at least 9 characters.</div>
+                            <div id="passwordInvalid" class="invalid-feedback"></div>
+                        </div>
+    
+                        <div class="mb-3">
+                            <label for="repeatPassword" class="form-label">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" required>
+                            <div id="repeatPasswordInvalid" class="invalid-feedback"></div>
+                        </div>
+    
+                        <div class="mb-3">
+                            <p class="small">To verify your number, we will send you a text message with a temporary code. Message and data rates may apply.</p>
+                        </div>
+                        <button type="button" class="btn btn-warning w-100 mb-3" style="border-radius: 20px;">Verify mobile number</button>
+                        <hr>
+                        <div class="mb-3">
+                            <p class="small">Already have an account? <a href="#" style="color: rgb(15, 164, 155);">Sign in ></a></p>
+                        </div>
+                        <div class="small">
+                            <p>By creating an account, you agree to Amazon's <a href="#" style="color: rgb(15, 164, 155);">Conditions of Use</a> and <a href="#" style="color: rgb(15, 164, 155);">Privacy Notice</a>.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <hr>
+    <footer class="text-center m-3 mb-3">
+        <div class="d-inline-block align-content-between">
+            <a href="#" style="color: rgb(15, 164, 155);" class="me-3">Conditions of Use</a>
+            <a href="#" style="color: rgb(15, 164, 155);" class="me-3">Privacy Notice</a>
+            <a href="#" style="color: rgb(15, 164, 155);">Help</a>
+        </div>
+        <div class="container">
+            &copy; 1996-2024, Amazon.com, Inc. or its affiliates
+        </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/Register.js"></script>
+</body>
+
+</html>
